@@ -14,6 +14,8 @@
 		E7C869E4241648BC0078441B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7C869E3241648BC0078441B /* Assets.xcassets */; };
 		E7C869E7241648BC0078441B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7C869E5241648BC0078441B /* LaunchScreen.storyboard */; };
 		E7C869EA241648BC0078441B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C869E9241648BC0078441B /* main.m */; };
+		E7C869F3241649DF0078441B /* NSString+JLBounding.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C869F2241649DF0078441B /* NSString+JLBounding.m */; };
+		E7C869F624164BA40078441B /* UIView+JLConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C869F524164BA40078441B /* UIView+JLConstraint.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,10 @@
 		E7C869E6241648BC0078441B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E7C869E8241648BC0078441B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E7C869E9241648BC0078441B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E7C869F1241649DF0078441B /* NSString+JLBounding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+JLBounding.h"; sourceTree = "<group>"; };
+		E7C869F2241649DF0078441B /* NSString+JLBounding.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+JLBounding.m"; sourceTree = "<group>"; };
+		E7C869F424164BA40078441B /* UIView+JLConstraint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+JLConstraint.h"; sourceTree = "<group>"; };
+		E7C869F524164BA40078441B /* UIView+JLConstraint.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+JLConstraint.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +67,7 @@
 		E7C869D6241648BB0078441B /* JLSegementSlide */ = {
 			isa = PBXGroup;
 			children = (
+				E7C869F0241649080078441B /* Source */,
 				E7C869D7241648BB0078441B /* AppDelegate.h */,
 				E7C869D8241648BB0078441B /* AppDelegate.m */,
 				E7C869DA241648BB0078441B /* SceneDelegate.h */,
@@ -74,6 +81,17 @@
 				E7C869E9241648BC0078441B /* main.m */,
 			);
 			path = JLSegementSlide;
+			sourceTree = "<group>";
+		};
+		E7C869F0241649080078441B /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				E7C869F1241649DF0078441B /* NSString+JLBounding.h */,
+				E7C869F2241649DF0078441B /* NSString+JLBounding.m */,
+				E7C869F424164BA40078441B /* UIView+JLConstraint.h */,
+				E7C869F524164BA40078441B /* UIView+JLConstraint.m */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +168,8 @@
 				E7C869D9241648BB0078441B /* AppDelegate.m in Sources */,
 				E7C869EA241648BC0078441B /* main.m in Sources */,
 				E7C869DC241648BB0078441B /* SceneDelegate.m in Sources */,
+				E7C869F3241649DF0078441B /* NSString+JLBounding.m in Sources */,
+				E7C869F624164BA40078441B /* UIView+JLConstraint.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
