@@ -16,6 +16,8 @@
 		E7C869EA241648BC0078441B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C869E9241648BC0078441B /* main.m */; };
 		E7C869F3241649DF0078441B /* NSString+JLBounding.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C869F2241649DF0078441B /* NSString+JLBounding.m */; };
 		E7C869F624164BA40078441B /* UIView+JLConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C869F524164BA40078441B /* UIView+JLConstraint.m */; };
+		E7C869F9241654610078441B /* JLSegmentSlideSwitcherSharedConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C869F8241654610078441B /* JLSegmentSlideSwitcherSharedConfig.m */; };
+		E7C869FD241658210078441B /* JLSegementSlideSwitcherView.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C869FC241658210078441B /* JLSegementSlideSwitcherView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,11 @@
 		E7C869F2241649DF0078441B /* NSString+JLBounding.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+JLBounding.m"; sourceTree = "<group>"; };
 		E7C869F424164BA40078441B /* UIView+JLConstraint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+JLConstraint.h"; sourceTree = "<group>"; };
 		E7C869F524164BA40078441B /* UIView+JLConstraint.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+JLConstraint.m"; sourceTree = "<group>"; };
+		E7C869F7241654610078441B /* JLSegmentSlideSwitcherSharedConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JLSegmentSlideSwitcherSharedConfig.h; sourceTree = "<group>"; };
+		E7C869F8241654610078441B /* JLSegmentSlideSwitcherSharedConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLSegmentSlideSwitcherSharedConfig.m; sourceTree = "<group>"; };
+		E7C869FA241654A70078441B /* JLSegmentSlideConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JLSegmentSlideConst.h; sourceTree = "<group>"; };
+		E7C869FB241658210078441B /* JLSegementSlideSwitcherView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JLSegementSlideSwitcherView.h; sourceTree = "<group>"; };
+		E7C869FC241658210078441B /* JLSegementSlideSwitcherView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLSegementSlideSwitcherView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +97,11 @@
 				E7C869F2241649DF0078441B /* NSString+JLBounding.m */,
 				E7C869F424164BA40078441B /* UIView+JLConstraint.h */,
 				E7C869F524164BA40078441B /* UIView+JLConstraint.m */,
+				E7C869F7241654610078441B /* JLSegmentSlideSwitcherSharedConfig.h */,
+				E7C869F8241654610078441B /* JLSegmentSlideSwitcherSharedConfig.m */,
+				E7C869FA241654A70078441B /* JLSegmentSlideConst.h */,
+				E7C869FB241658210078441B /* JLSegementSlideSwitcherView.h */,
+				E7C869FC241658210078441B /* JLSegementSlideSwitcherView.m */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -167,7 +179,9 @@
 				E7C869DF241648BB0078441B /* ViewController.m in Sources */,
 				E7C869D9241648BB0078441B /* AppDelegate.m in Sources */,
 				E7C869EA241648BC0078441B /* main.m in Sources */,
+				E7C869FD241658210078441B /* JLSegementSlideSwitcherView.m in Sources */,
 				E7C869DC241648BB0078441B /* SceneDelegate.m in Sources */,
+				E7C869F9241654610078441B /* JLSegmentSlideSwitcherSharedConfig.m in Sources */,
 				E7C869F3241649DF0078441B /* NSString+JLBounding.m in Sources */,
 				E7C869F624164BA40078441B /* UIView+JLConstraint.m in Sources */,
 			);

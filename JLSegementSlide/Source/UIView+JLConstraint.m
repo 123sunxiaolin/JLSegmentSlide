@@ -114,7 +114,6 @@
     self.bottomConstraint = [self.bottomAnchor constraintEqualToAnchor:self.superview.bottomAnchor];
     self.leadingConstraint = [self.leadingAnchor constraintEqualToAnchor:self.superview.leadingAnchor];
     self.trailingConstraint = [self.trailingAnchor constraintEqualToAnchor:self.superview.trailingAnchor];
-    
 }
 
 - (void)removeAllConstraints {
