@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "JLSegmentSlideConst.h"
+#import "JLSegmentSlideSwitcherSharedConfig.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -29,7 +30,25 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface JLSegementSlideSwitcherView : UIView
 
+@property (nonatomic, weak) id<JLSegementSlideSwitcherViewDelegate> delegate;
 
+// you must call `reloadData()` to make it work, after the assignment.
+@property (nonatomic, strong) JLSegmentSlideSwitcherSharedConfig *config;
+
+@property (nonatomic, assign, readonly) NSInteger selectedIndex;
+
+/// relayout subViews
+///
+/// you should call `selectSwitcher(at index: Int, animated: Bool)` after call the method.
+/// otherwise, none of them will be selected.
+/// However, if an item was previously selected, it will be reSelected.
+- (void)reloadData;
+
+/// reload all badges in `SegementSlideSwitcherView`
+- (void)reloadBadges;
+
+/// select one item by index
+- (void)selectSwitcherAtIndex:(NSInteger)index animated:(BOOL)animated;
 
 @end
 

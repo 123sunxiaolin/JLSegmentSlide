@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E76BBCC8241F24F000A6DBE0 /* JLBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = E76BBCC7241F24F000A6DBE0 /* JLBadgeView.m */; };
 		E7C869D9241648BB0078441B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C869D8241648BB0078441B /* AppDelegate.m */; };
 		E7C869DC241648BB0078441B /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C869DB241648BB0078441B /* SceneDelegate.m */; };
 		E7C869DF241648BB0078441B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C869DE241648BB0078441B /* ViewController.m */; };
@@ -21,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E76BBCC6241F24F000A6DBE0 /* JLBadgeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JLBadgeView.h; sourceTree = "<group>"; };
+		E76BBCC7241F24F000A6DBE0 /* JLBadgeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLBadgeView.m; sourceTree = "<group>"; };
 		E7C869D4241648BB0078441B /* JLSegementSlide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JLSegementSlide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7C869D7241648BB0078441B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E7C869D8241648BB0078441B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -55,6 +58,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E76BBCCC241F5DD300A6DBE0 /* Badge */ = {
+			isa = PBXGroup;
+			children = (
+				E76BBCC6241F24F000A6DBE0 /* JLBadgeView.h */,
+				E76BBCC7241F24F000A6DBE0 /* JLBadgeView.m */,
+			);
+			path = Badge;
+			sourceTree = "<group>";
+		};
 		E7C869CB241648BB0078441B = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +105,7 @@
 		E7C869F0241649080078441B /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				E76BBCCC241F5DD300A6DBE0 /* Badge */,
 				E7C869F1241649DF0078441B /* NSString+JLBounding.h */,
 				E7C869F2241649DF0078441B /* NSString+JLBounding.m */,
 				E7C869F424164BA40078441B /* UIView+JLConstraint.h */,
@@ -178,6 +191,7 @@
 			files = (
 				E7C869DF241648BB0078441B /* ViewController.m in Sources */,
 				E7C869D9241648BB0078441B /* AppDelegate.m in Sources */,
+				E76BBCC8241F24F000A6DBE0 /* JLBadgeView.m in Sources */,
 				E7C869EA241648BC0078441B /* main.m in Sources */,
 				E7C869FD241658210078441B /* JLSegementSlideSwitcherView.m in Sources */,
 				E7C869DC241648BB0078441B /* SceneDelegate.m in Sources */,
