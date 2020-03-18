@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		E76BBCC8241F24F000A6DBE0 /* JLBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = E76BBCC7241F24F000A6DBE0 /* JLBadgeView.m */; };
+		E76BBCD4241F6FB100A6DBE0 /* JLSegementSlideContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = E76BBCD3241F6FB100A6DBE0 /* JLSegementSlideContentView.m */; };
+		E76BBCD7241F8D8300A6DBE0 /* JLSegementSlideHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = E76BBCD6241F8D8300A6DBE0 /* JLSegementSlideHeaderView.m */; };
+		E76BBCDE241F943200A6DBE0 /* JLSegementSlideScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = E76BBCDD241F943200A6DBE0 /* JLSegementSlideScrollView.m */; };
+		E76BBCE1241F965F00A6DBE0 /* JLSegementSlideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E76BBCE0241F965F00A6DBE0 /* JLSegementSlideViewController.m */; };
+		E76BBCF024207B0000A6DBE0 /* JLSegementSlideViewController+Extention.m in Sources */ = {isa = PBXBuildFile; fileRef = E76BBCEF24207B0000A6DBE0 /* JLSegementSlideViewController+Extention.m */; };
+		E76BBCF62420D8FA00A6DBE0 /* JLTransparentSlideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E76BBCF52420D8FA00A6DBE0 /* JLTransparentSlideViewController.m */; };
 		E7C869D9241648BB0078441B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C869D8241648BB0078441B /* AppDelegate.m */; };
 		E7C869DC241648BB0078441B /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C869DB241648BB0078441B /* SceneDelegate.m */; };
 		E7C869DF241648BB0078441B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C869DE241648BB0078441B /* ViewController.m */; };
@@ -24,6 +30,18 @@
 /* Begin PBXFileReference section */
 		E76BBCC6241F24F000A6DBE0 /* JLBadgeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JLBadgeView.h; sourceTree = "<group>"; };
 		E76BBCC7241F24F000A6DBE0 /* JLBadgeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLBadgeView.m; sourceTree = "<group>"; };
+		E76BBCD2241F6FB100A6DBE0 /* JLSegementSlideContentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JLSegementSlideContentView.h; sourceTree = "<group>"; };
+		E76BBCD3241F6FB100A6DBE0 /* JLSegementSlideContentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLSegementSlideContentView.m; sourceTree = "<group>"; };
+		E76BBCD5241F8D8300A6DBE0 /* JLSegementSlideHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JLSegementSlideHeaderView.h; sourceTree = "<group>"; };
+		E76BBCD6241F8D8300A6DBE0 /* JLSegementSlideHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLSegementSlideHeaderView.m; sourceTree = "<group>"; };
+		E76BBCDC241F943200A6DBE0 /* JLSegementSlideScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JLSegementSlideScrollView.h; sourceTree = "<group>"; };
+		E76BBCDD241F943200A6DBE0 /* JLSegementSlideScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLSegementSlideScrollView.m; sourceTree = "<group>"; };
+		E76BBCDF241F965F00A6DBE0 /* JLSegementSlideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JLSegementSlideViewController.h; sourceTree = "<group>"; };
+		E76BBCE0241F965F00A6DBE0 /* JLSegementSlideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLSegementSlideViewController.m; sourceTree = "<group>"; };
+		E76BBCEE24207B0000A6DBE0 /* JLSegementSlideViewController+Extention.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JLSegementSlideViewController+Extention.h"; sourceTree = "<group>"; };
+		E76BBCEF24207B0000A6DBE0 /* JLSegementSlideViewController+Extention.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "JLSegementSlideViewController+Extention.m"; sourceTree = "<group>"; };
+		E76BBCF42420D8FA00A6DBE0 /* JLTransparentSlideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JLTransparentSlideViewController.h; sourceTree = "<group>"; };
+		E76BBCF52420D8FA00A6DBE0 /* JLTransparentSlideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLTransparentSlideViewController.m; sourceTree = "<group>"; };
 		E7C869D4241648BB0078441B /* JLSegementSlide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JLSegementSlide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7C869D7241648BB0078441B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E7C869D8241648BB0078441B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -67,6 +85,61 @@
 			path = Badge;
 			sourceTree = "<group>";
 		};
+		E76BBCD1241F6F9A00A6DBE0 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				E76BBCD2241F6FB100A6DBE0 /* JLSegementSlideContentView.h */,
+				E76BBCD3241F6FB100A6DBE0 /* JLSegementSlideContentView.m */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
+		E76BBCD8241F92EE00A6DBE0 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				E76BBCD5241F8D8300A6DBE0 /* JLSegementSlideHeaderView.h */,
+				E76BBCD6241F8D8300A6DBE0 /* JLSegementSlideHeaderView.m */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		E76BBCD9241F930500A6DBE0 /* Segment */ = {
+			isa = PBXGroup;
+			children = (
+				E7C869FB241658210078441B /* JLSegementSlideSwitcherView.h */,
+				E7C869FC241658210078441B /* JLSegementSlideSwitcherView.m */,
+				E7C869F7241654610078441B /* JLSegmentSlideSwitcherSharedConfig.h */,
+				E7C869F8241654610078441B /* JLSegmentSlideSwitcherSharedConfig.m */,
+			);
+			path = Segment;
+			sourceTree = "<group>";
+		};
+		E76BBCDA241F933D00A6DBE0 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E7C869F1241649DF0078441B /* NSString+JLBounding.h */,
+				E7C869F2241649DF0078441B /* NSString+JLBounding.m */,
+				E7C869F424164BA40078441B /* UIView+JLConstraint.h */,
+				E7C869F524164BA40078441B /* UIView+JLConstraint.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		E76BBCDB241F935500A6DBE0 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				E76BBCDC241F943200A6DBE0 /* JLSegementSlideScrollView.h */,
+				E76BBCDD241F943200A6DBE0 /* JLSegementSlideScrollView.m */,
+				E76BBCDF241F965F00A6DBE0 /* JLSegementSlideViewController.h */,
+				E76BBCE0241F965F00A6DBE0 /* JLSegementSlideViewController.m */,
+				E76BBCEE24207B0000A6DBE0 /* JLSegementSlideViewController+Extention.h */,
+				E76BBCEF24207B0000A6DBE0 /* JLSegementSlideViewController+Extention.m */,
+				E76BBCF42420D8FA00A6DBE0 /* JLTransparentSlideViewController.h */,
+				E76BBCF52420D8FA00A6DBE0 /* JLTransparentSlideViewController.m */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
 		E7C869CB241648BB0078441B = {
 			isa = PBXGroup;
 			children = (
@@ -105,16 +178,13 @@
 		E7C869F0241649080078441B /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				E76BBCCC241F5DD300A6DBE0 /* Badge */,
-				E7C869F1241649DF0078441B /* NSString+JLBounding.h */,
-				E7C869F2241649DF0078441B /* NSString+JLBounding.m */,
-				E7C869F424164BA40078441B /* UIView+JLConstraint.h */,
-				E7C869F524164BA40078441B /* UIView+JLConstraint.m */,
-				E7C869F7241654610078441B /* JLSegmentSlideSwitcherSharedConfig.h */,
-				E7C869F8241654610078441B /* JLSegmentSlideSwitcherSharedConfig.m */,
 				E7C869FA241654A70078441B /* JLSegmentSlideConst.h */,
-				E7C869FB241658210078441B /* JLSegementSlideSwitcherView.h */,
-				E7C869FC241658210078441B /* JLSegementSlideSwitcherView.m */,
+				E76BBCDB241F935500A6DBE0 /* General */,
+				E76BBCD8241F92EE00A6DBE0 /* Header */,
+				E76BBCD1241F6F9A00A6DBE0 /* Content */,
+				E76BBCCC241F5DD300A6DBE0 /* Badge */,
+				E76BBCDA241F933D00A6DBE0 /* Utils */,
+				E76BBCD9241F930500A6DBE0 /* Segment */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -190,10 +260,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7C869DF241648BB0078441B /* ViewController.m in Sources */,
+				E76BBCE1241F965F00A6DBE0 /* JLSegementSlideViewController.m in Sources */,
+				E76BBCD7241F8D8300A6DBE0 /* JLSegementSlideHeaderView.m in Sources */,
 				E7C869D9241648BB0078441B /* AppDelegate.m in Sources */,
+				E76BBCDE241F943200A6DBE0 /* JLSegementSlideScrollView.m in Sources */,
+				E76BBCD4241F6FB100A6DBE0 /* JLSegementSlideContentView.m in Sources */,
 				E76BBCC8241F24F000A6DBE0 /* JLBadgeView.m in Sources */,
 				E7C869EA241648BC0078441B /* main.m in Sources */,
+				E76BBCF62420D8FA00A6DBE0 /* JLTransparentSlideViewController.m in Sources */,
 				E7C869FD241658210078441B /* JLSegementSlideSwitcherView.m in Sources */,
+				E76BBCF024207B0000A6DBE0 /* JLSegementSlideViewController+Extention.m in Sources */,
 				E7C869DC241648BB0078441B /* SceneDelegate.m in Sources */,
 				E7C869F9241654610078441B /* JLSegmentSlideSwitcherSharedConfig.m in Sources */,
 				E7C869F3241649DF0078441B /* NSString+JLBounding.m in Sources */,

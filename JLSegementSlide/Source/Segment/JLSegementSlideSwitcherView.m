@@ -208,7 +208,7 @@
 
 - (void)updateSelectedIndex {
     if (self.selectedIndex == NSIntegerMin) return;
-     [self updateSelectedButtonAtIndex:self.selectedIndex animated:NO];
+    [self updateSelectedButtonAtIndex:self.selectedIndex animated:NO];
 }
 
 - (void)updateSelectedButtonAtIndex:(NSInteger)index animated:(BOOL)animated {

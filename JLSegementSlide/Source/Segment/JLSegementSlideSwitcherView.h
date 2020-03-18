@@ -15,8 +15,6 @@ NS_ASSUME_NONNULL_BEGIN
 @class JLSegementSlideSwitcherView;
 @protocol JLSegementSlideSwitcherViewDelegate <NSObject>
 
-@optional
-
 @property (nonatomic, copy, readonly) NSArray *titlesInSegementSlideSwitcherView;
 
 - (void)segementSlideSwitcherView:(JLSegementSlideSwitcherView *)segementSlideSwitcherView
