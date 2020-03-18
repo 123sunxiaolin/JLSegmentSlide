@@ -197,11 +197,11 @@ NSNotificationName const willClearAllReusableViewControllersNotification = @"wil
 #pragma mark - UIScrollViewDelegate
 - (void)scrollViewDidEndDragging:(UIScrollView *)scrollView willDecelerate:(BOOL)decelerate {
     if (decelerate) return;
-    [self scrollViewDidScroll:scrollView];
+    [self scrollViewDidEndScroll:scrollView];
 }
 
 - (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView {
-    [self scrollViewDidScroll:scrollView];
+    [self scrollViewDidEndScroll:scrollView];
 }
 
 #pragma mark - Getters
