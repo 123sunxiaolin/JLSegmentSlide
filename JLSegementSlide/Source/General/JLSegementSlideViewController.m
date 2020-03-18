@@ -564,7 +564,7 @@
 }
 
 - (id<JLSegementSlideContentScrollViewDelegate>)segementSlideContentScrollViewAtIndex:(NSInteger)index {
-    return [self segementSlideContentScrollViewAtIndex:index];
+    return [self segementSlideContentViewControllerAtIndex:index];
 }
 
 - (void)segementSlideContentView:(JLSegementSlideContentView *)segementSlideContentView didSelectAtIndex:(NSInteger)index animated:(BOOL)animated {

@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E741F1052421D7690029EC1D /* LanguageCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E741F1042421D7690029EC1D /* LanguageCenterViewController.m */; };
+		E741F1092421F33B0029EC1D /* JLConfigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E741F1082421F33B0029EC1D /* JLConfigManager.m */; };
+		E741F10C2421F6B80029EC1D /* CALayer+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E741F10B2421F6B80029EC1D /* CALayer+Extension.m */; };
+		E741F1102421FBEB0029EC1D /* KKUserDetailHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E741F10D2421FBEB0029EC1D /* KKUserDetailHeaderView.xib */; };
+		E741F1112421FBEB0029EC1D /* KKUserDetailHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = E741F10F2421FBEB0029EC1D /* KKUserDetailHeaderView.m */; };
+		E741F115242213B20029EC1D /* JLContentTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E741F114242213B20029EC1D /* JLContentTableViewController.m */; };
 		E76BBCC8241F24F000A6DBE0 /* JLBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = E76BBCC7241F24F000A6DBE0 /* JLBadgeView.m */; };
 		E76BBCD4241F6FB100A6DBE0 /* JLSegementSlideContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = E76BBCD3241F6FB100A6DBE0 /* JLSegementSlideContentView.m */; };
 		E76BBCD7241F8D8300A6DBE0 /* JLSegementSlideHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = E76BBCD6241F8D8300A6DBE0 /* JLSegementSlideHeaderView.m */; };
@@ -28,6 +34,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E741F1032421D7690029EC1D /* LanguageCenterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LanguageCenterViewController.h; sourceTree = "<group>"; };
+		E741F1042421D7690029EC1D /* LanguageCenterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LanguageCenterViewController.m; sourceTree = "<group>"; };
+		E741F1072421F33B0029EC1D /* JLConfigManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JLConfigManager.h; sourceTree = "<group>"; };
+		E741F1082421F33B0029EC1D /* JLConfigManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLConfigManager.m; sourceTree = "<group>"; };
+		E741F10A2421F6B80029EC1D /* CALayer+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CALayer+Extension.h"; sourceTree = "<group>"; };
+		E741F10B2421F6B80029EC1D /* CALayer+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CALayer+Extension.m"; sourceTree = "<group>"; };
+		E741F10D2421FBEB0029EC1D /* KKUserDetailHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KKUserDetailHeaderView.xib; sourceTree = "<group>"; };
+		E741F10E2421FBEB0029EC1D /* KKUserDetailHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKUserDetailHeaderView.h; sourceTree = "<group>"; };
+		E741F10F2421FBEB0029EC1D /* KKUserDetailHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKUserDetailHeaderView.m; sourceTree = "<group>"; };
+		E741F113242213B20029EC1D /* JLContentTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JLContentTableViewController.h; sourceTree = "<group>"; };
+		E741F114242213B20029EC1D /* JLContentTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLContentTableViewController.m; sourceTree = "<group>"; };
 		E76BBCC6241F24F000A6DBE0 /* JLBadgeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JLBadgeView.h; sourceTree = "<group>"; };
 		E76BBCC7241F24F000A6DBE0 /* JLBadgeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLBadgeView.m; sourceTree = "<group>"; };
 		E76BBCD2241F6FB100A6DBE0 /* JLSegementSlideContentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JLSegementSlideContentView.h; sourceTree = "<group>"; };
@@ -76,6 +93,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E741F1062421F2E60029EC1D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E741F10E2421FBEB0029EC1D /* KKUserDetailHeaderView.h */,
+				E741F10F2421FBEB0029EC1D /* KKUserDetailHeaderView.m */,
+				E741F10D2421FBEB0029EC1D /* KKUserDetailHeaderView.xib */,
+				E741F1032421D7690029EC1D /* LanguageCenterViewController.h */,
+				E741F1042421D7690029EC1D /* LanguageCenterViewController.m */,
+				E741F1072421F33B0029EC1D /* JLConfigManager.h */,
+				E741F1082421F33B0029EC1D /* JLConfigManager.m */,
+				E741F113242213B20029EC1D /* JLContentTableViewController.h */,
+				E741F114242213B20029EC1D /* JLContentTableViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		E76BBCCC241F5DD300A6DBE0 /* Badge */ = {
 			isa = PBXGroup;
 			children = (
@@ -121,6 +154,8 @@
 				E7C869F2241649DF0078441B /* NSString+JLBounding.m */,
 				E7C869F424164BA40078441B /* UIView+JLConstraint.h */,
 				E7C869F524164BA40078441B /* UIView+JLConstraint.m */,
+				E741F10A2421F6B80029EC1D /* CALayer+Extension.h */,
+				E741F10B2421F6B80029EC1D /* CALayer+Extension.m */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -162,6 +197,7 @@
 				E7C869F0241649080078441B /* Source */,
 				E7C869D7241648BB0078441B /* AppDelegate.h */,
 				E7C869D8241648BB0078441B /* AppDelegate.m */,
+				E741F1062421F2E60029EC1D /* ViewControllers */,
 				E7C869DA241648BB0078441B /* SceneDelegate.h */,
 				E7C869DB241648BB0078441B /* SceneDelegate.m */,
 				E7C869DD241648BB0078441B /* ViewController.h */,
@@ -249,6 +285,7 @@
 				E7C869E7241648BC0078441B /* LaunchScreen.storyboard in Resources */,
 				E7C869E4241648BC0078441B /* Assets.xcassets in Resources */,
 				E7C869E2241648BB0078441B /* Main.storyboard in Resources */,
+				E741F1102421FBEB0029EC1D /* KKUserDetailHeaderView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,15 +300,20 @@
 				E76BBCE1241F965F00A6DBE0 /* JLSegementSlideViewController.m in Sources */,
 				E76BBCD7241F8D8300A6DBE0 /* JLSegementSlideHeaderView.m in Sources */,
 				E7C869D9241648BB0078441B /* AppDelegate.m in Sources */,
+				E741F1112421FBEB0029EC1D /* KKUserDetailHeaderView.m in Sources */,
 				E76BBCDE241F943200A6DBE0 /* JLSegementSlideScrollView.m in Sources */,
 				E76BBCD4241F6FB100A6DBE0 /* JLSegementSlideContentView.m in Sources */,
 				E76BBCC8241F24F000A6DBE0 /* JLBadgeView.m in Sources */,
+				E741F10C2421F6B80029EC1D /* CALayer+Extension.m in Sources */,
 				E7C869EA241648BC0078441B /* main.m in Sources */,
 				E76BBCF62420D8FA00A6DBE0 /* JLTransparentSlideViewController.m in Sources */,
 				E7C869FD241658210078441B /* JLSegementSlideSwitcherView.m in Sources */,
+				E741F1092421F33B0029EC1D /* JLConfigManager.m in Sources */,
+				E741F115242213B20029EC1D /* JLContentTableViewController.m in Sources */,
 				E76BBCF024207B0000A6DBE0 /* JLSegementSlideViewController+Extention.m in Sources */,
 				E7C869DC241648BB0078441B /* SceneDelegate.m in Sources */,
 				E7C869F9241654610078441B /* JLSegmentSlideSwitcherSharedConfig.m in Sources */,
+				E741F1052421D7690029EC1D /* LanguageCenterViewController.m in Sources */,
 				E7C869F3241649DF0078441B /* NSString+JLBounding.m in Sources */,
 				E7C869F624164BA40078441B /* UIView+JLConstraint.m in Sources */,
 			);

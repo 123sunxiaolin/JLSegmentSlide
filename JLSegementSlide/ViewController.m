@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "LanguageCenterViewController.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+}
+
+- (IBAction)jumpButtonClicked:(id)sender {
+    LanguageCenterViewController *vc = [[LanguageCenterViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 
